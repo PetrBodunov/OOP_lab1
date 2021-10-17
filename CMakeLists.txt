@@ -15,7 +15,8 @@ add_executable(OOP_game main.cpp
                         field/Field_Builder.h
                         field/Field_Builder.cpp
                         views/Field_View.h
-                        views/Field_View.cpp)
+                        views/Field_View.cpp
+                        game_obj/Characters/Characters.h)
 
 
 message("Project built")
