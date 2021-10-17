@@ -109,6 +109,9 @@
 		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Wall.h">
 			<Option target="OOP_game"/>
 		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Game_obj.h">
 			<Option target="OOP_game"/>
 		</Unit>
