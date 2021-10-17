@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OOP_game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/master/work/etu/OOP_game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/master/work/etu/OOP_game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/master/work/etu/OOP_game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OOP_game">
+				<Option output="/home/master/work/etu/OOP_game/cmake-build-debug/OOP_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/master/work/etu/OOP_game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_game"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OOP_game/fast">
+				<Option output="/home/master/work/etu/OOP_game/cmake-build-debug/OOP_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/master/work/etu/OOP_game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP_game/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/master/work/etu/OOP_game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/master/work/etu/OOP_game/field/Field.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/Field.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/Field_Builder.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/Field_Builder.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Abstract_cell.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Cell.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Entrance.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Exit.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Wall.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Game_obj.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/main.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/views/Field_View.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/views/Field_View.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
