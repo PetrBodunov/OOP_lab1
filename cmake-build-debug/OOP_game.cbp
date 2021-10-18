@@ -109,10 +109,43 @@
 		<Unit filename="/home/master/work/etu/OOP_game/field/cells/Wall.h">
 			<Option target="OOP_game"/>
 		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h">
 			<Option target="OOP_game"/>
 		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Hero.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Game_obj.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Armor.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Bomb.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Items.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Items.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Medicine.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Weapon.h">
 			<Option target="OOP_game"/>
 		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/main.cpp">

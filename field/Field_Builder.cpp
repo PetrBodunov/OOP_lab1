@@ -5,8 +5,6 @@ Field_Builder::Field_Builder(int rows, int columns) : rows(rows), columns(column
 Field Field_Builder::without_walls_build() {
     Field f(rows, columns);
     f.cells[0][0] = new Entrance();
-    if (typeid(f.cells[0][0]).hash_code() == typeid(Entrance*).hash_code())
-        std::cout << "\n" << "Good"<< "\n";
     f.cells[rows - 1][columns - 1] = new Exit();
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {

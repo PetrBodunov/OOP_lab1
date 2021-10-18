@@ -16,7 +16,18 @@ add_executable(OOP_game main.cpp
                         field/Field_Builder.cpp
                         views/Field_View.h
                         views/Field_View.cpp
-                        game_obj/Characters/Characters.h)
+                        game_obj/Characters/Characters.h
+                        game_obj/Characters/Characters.cpp
+                        game_obj/Items/Items.h
+                        game_obj/Items/Items.cpp
+                        game_obj/Characters/Heroes/Backpack.h
+                        game_obj/Characters/Heroes/Backpack.cpp
+                        game_obj/Items/Bomb.h
+                        game_obj/Items/Medicine.h
+                        game_obj/Items/Weapon.h
+                        game_obj/Items/Armor.h
+                        game_obj/Characters/Heroes/Hero.h
+                        game_obj/Game_obj_classes.h)
 
 
 message("Project built")

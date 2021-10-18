@@ -128,12 +128,54 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_game.dir/views/Field_View.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/work/etu/OOP_game/views/Field_View.cpp -o CMakeFiles/OOP_game.dir/views/Field_View.cpp.s
 
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: CMakeFiles/OOP_game.dir/flags.make
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Characters/Characters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/master/work/etu/OOP_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o -c /home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp > CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.i
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp -o CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.s
+
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: CMakeFiles/OOP_game.dir/flags.make
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Items/Items.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/master/work/etu/OOP_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o -c /home/master/work/etu/OOP_game/game_obj/Items/Items.cpp
+
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/work/etu/OOP_game/game_obj/Items/Items.cpp > CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.i
+
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/work/etu/OOP_game/game_obj/Items/Items.cpp -o CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.s
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: CMakeFiles/OOP_game.dir/flags.make
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Characters/Heroes/Backpack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/master/work/etu/OOP_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o -c /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp > CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.i
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp -o CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.s
+
 # Object files for target OOP_game
 OOP_game_OBJECTS = \
 "CMakeFiles/OOP_game.dir/main.cpp.o" \
 "CMakeFiles/OOP_game.dir/field/Field.cpp.o" \
 "CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o" \
-"CMakeFiles/OOP_game.dir/views/Field_View.cpp.o"
+"CMakeFiles/OOP_game.dir/views/Field_View.cpp.o" \
+"CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o" \
+"CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o" \
+"CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o"
 
 # External object files for target OOP_game
 OOP_game_EXTERNAL_OBJECTS =
@@ -142,9 +184,12 @@ OOP_game: CMakeFiles/OOP_game.dir/main.cpp.o
 OOP_game: CMakeFiles/OOP_game.dir/field/Field.cpp.o
 OOP_game: CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o
 OOP_game: CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
+OOP_game: CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o
+OOP_game: CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o
+OOP_game: CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o
 OOP_game: CMakeFiles/OOP_game.dir/build.make
 OOP_game: CMakeFiles/OOP_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/master/work/etu/OOP_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable OOP_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/master/work/etu/OOP_game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OOP_game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOP_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,6 +5,7 @@ CMakeFiles/OOP_game.dir/field/Field.cpp.o: ../field/Field.cpp
 CMakeFiles/OOP_game.dir/field/Field.cpp.o: ../field/Field.h
 CMakeFiles/OOP_game.dir/field/Field.cpp.o: ../field/cells/Abstract_cell.h
 CMakeFiles/OOP_game.dir/field/Field.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/field/Field.cpp.o: ../game_obj/Game_obj_classes.h
 
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../field/Field.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../field/Field_Builder.cpp
@@ -15,6 +16,20 @@ CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../field/cells/Entrance.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../field/cells/Exit.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../field/cells/Wall.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o: ../game_obj/Game_obj_classes.h
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Characters/Characters.cpp
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Characters/Characters.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Game_obj_classes.h
+
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Characters/Heroes/Backpack.cpp
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Characters/Heroes/Backpack.h
+
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Items/Items.cpp
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Items/Items.h
 
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/Field.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/Field_Builder.h
@@ -24,6 +39,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Entrance.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Exit.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Wall.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Game_obj_classes.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../main.cpp
 CMakeFiles/OOP_game.dir/main.cpp.o: ../views/Field_View.h
 
@@ -34,6 +50,7 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Entrance.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Exit.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Wall.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj_classes.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../views/Field_View.cpp
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../views/Field_View.h
 

@@ -196,6 +196,87 @@ field/Field_Builder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.s
 .PHONY : field/Field_Builder.cpp.s
 
+game_obj/Characters/Characters.o: game_obj/Characters/Characters.cpp.o
+
+.PHONY : game_obj/Characters/Characters.o
+
+# target to build an object file
+game_obj/Characters/Characters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o
+.PHONY : game_obj/Characters/Characters.cpp.o
+
+game_obj/Characters/Characters.i: game_obj/Characters/Characters.cpp.i
+
+.PHONY : game_obj/Characters/Characters.i
+
+# target to preprocess a source file
+game_obj/Characters/Characters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.i
+.PHONY : game_obj/Characters/Characters.cpp.i
+
+game_obj/Characters/Characters.s: game_obj/Characters/Characters.cpp.s
+
+.PHONY : game_obj/Characters/Characters.s
+
+# target to generate assembly for a file
+game_obj/Characters/Characters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.s
+.PHONY : game_obj/Characters/Characters.cpp.s
+
+game_obj/Characters/Heroes/Backpack.o: game_obj/Characters/Heroes/Backpack.cpp.o
+
+.PHONY : game_obj/Characters/Heroes/Backpack.o
+
+# target to build an object file
+game_obj/Characters/Heroes/Backpack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o
+.PHONY : game_obj/Characters/Heroes/Backpack.cpp.o
+
+game_obj/Characters/Heroes/Backpack.i: game_obj/Characters/Heroes/Backpack.cpp.i
+
+.PHONY : game_obj/Characters/Heroes/Backpack.i
+
+# target to preprocess a source file
+game_obj/Characters/Heroes/Backpack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.i
+.PHONY : game_obj/Characters/Heroes/Backpack.cpp.i
+
+game_obj/Characters/Heroes/Backpack.s: game_obj/Characters/Heroes/Backpack.cpp.s
+
+.PHONY : game_obj/Characters/Heroes/Backpack.s
+
+# target to generate assembly for a file
+game_obj/Characters/Heroes/Backpack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.s
+.PHONY : game_obj/Characters/Heroes/Backpack.cpp.s
+
+game_obj/Items/Items.o: game_obj/Items/Items.cpp.o
+
+.PHONY : game_obj/Items/Items.o
+
+# target to build an object file
+game_obj/Items/Items.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o
+.PHONY : game_obj/Items/Items.cpp.o
+
+game_obj/Items/Items.i: game_obj/Items/Items.cpp.i
+
+.PHONY : game_obj/Items/Items.i
+
+# target to preprocess a source file
+game_obj/Items/Items.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.i
+.PHONY : game_obj/Items/Items.cpp.i
+
+game_obj/Items/Items.s: game_obj/Items/Items.cpp.s
+
+.PHONY : game_obj/Items/Items.s
+
+# target to generate assembly for a file
+game_obj/Items/Items.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_game.dir/build.make CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.s
+.PHONY : game_obj/Items/Items.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -265,6 +346,15 @@ help:
 	@echo "... field/Field_Builder.o"
 	@echo "... field/Field_Builder.i"
 	@echo "... field/Field_Builder.s"
+	@echo "... game_obj/Characters/Characters.o"
+	@echo "... game_obj/Characters/Characters.i"
+	@echo "... game_obj/Characters/Characters.s"
+	@echo "... game_obj/Characters/Heroes/Backpack.o"
+	@echo "... game_obj/Characters/Heroes/Backpack.i"
+	@echo "... game_obj/Characters/Heroes/Backpack.s"
+	@echo "... game_obj/Items/Items.o"
+	@echo "... game_obj/Items/Items.i"
+	@echo "... game_obj/Items/Items.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

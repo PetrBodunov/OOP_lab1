@@ -6,6 +6,7 @@ CMakeFiles/OOP_game.dir/field/Field.cpp.o
  /home/master/work/etu/OOP_game/field/Field.h
  /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o
  /home/master/work/etu/OOP_game/field/Field.h
  /home/master/work/etu/OOP_game/field/Field_Builder.cpp
@@ -16,6 +17,20 @@ CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o
  /home/master/work/etu/OOP_game/field/cells/Exit.h
  /home/master/work/etu/OOP_game/field/cells/Wall.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o
+ /home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp
+ /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o
+ /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp
+ /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
+CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o
+ /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Items.cpp
+ /home/master/work/etu/OOP_game/game_obj/Items/Items.h
 CMakeFiles/OOP_game.dir/main.cpp.o
  /home/master/work/etu/OOP_game/field/Field.h
  /home/master/work/etu/OOP_game/field/Field_Builder.h
@@ -25,6 +40,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o
  /home/master/work/etu/OOP_game/field/cells/Exit.h
  /home/master/work/etu/OOP_game/field/cells/Wall.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
  /home/master/work/etu/OOP_game/main.cpp
  /home/master/work/etu/OOP_game/views/Field_View.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
@@ -35,5 +51,6 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
  /home/master/work/etu/OOP_game/field/cells/Exit.h
  /home/master/work/etu/OOP_game/field/cells/Wall.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+ /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
  /home/master/work/etu/OOP_game/views/Field_View.cpp
  /home/master/work/etu/OOP_game/views/Field_View.h

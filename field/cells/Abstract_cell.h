@@ -5,7 +5,7 @@
 
 class Abstract_cell{
 protected:
-    Game_obj* game_obj;
+    Game_obj* game_obj = nullptr;
 
 public:
     Abstract_cell() = default;

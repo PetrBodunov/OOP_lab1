@@ -52,15 +52,45 @@ Cell.h
 Abstract_cell.h
 /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
 
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp
+Characters.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+../Game_obj.h
 /home/master/work/etu/OOP_game/game_obj/Game_obj.h
+
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp
+Backpack.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
+
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
+Items/Items.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Items/Items.h
+
+/home/master/work/etu/OOP_game/game_obj/Game_obj.h
+iostream
+-
+Game_obj_classes.h
+/home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+
+/home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+
+/home/master/work/etu/OOP_game/game_obj/Items/Items.cpp
+Items.h
+/home/master/work/etu/OOP_game/game_obj/Items/Items.h
+
+/home/master/work/etu/OOP_game/game_obj/Items/Items.h
+../Game_obj.h
+/home/master/work/etu/OOP_game/game_obj/Game_obj.h
+../Game_obj_classes.h
+/home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
 
 /home/master/work/etu/OOP_game/main.cpp
 iostream
 -
 ./field/Field_Builder.h
 /home/master/work/etu/OOP_game/field/Field_Builder.h
-./field/Field.h
-/home/master/work/etu/OOP_game/field/Field.h
 ./views/Field_View.h
 /home/master/work/etu/OOP_game/views/Field_View.h
 
