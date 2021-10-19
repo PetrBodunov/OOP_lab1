@@ -2,6 +2,7 @@
 #define OOP_GAME_MEDICINE_H
 
 #include "Items.h"
+#include "../Characters/Characters.h"
 
 class Medicine: public Items{
 private:

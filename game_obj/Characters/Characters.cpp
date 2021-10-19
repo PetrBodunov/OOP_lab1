@@ -1,39 +1,40 @@
-#include "Characters.h"
+#include "../Items/Weapon.h"
+#include "../Items/Armor.h"
 
-Characters::Characters(int hp, int weapon, int armor) : hp(hp), weapon(weapon), armor(armor) {}
+Characters::Characters(int max_hp, Weapon* cur_weapon, Armor* cur_armor) : max_hp(max_hp), cur_hp(max_hp), cur_weapon(cur_weapon), cur_armor(cur_armor) {}
+
+bool Characters::interact(Game_obj *game_obj) {
+    return game_obj->interact(*this);
+}
 
 bool Characters::interact(Characters &other) {
     std::cout << "Fight\n";
-    int a = (other.armor - weapon);
+    int a = (other.get_armor() - get_weapon());
     a = (a < 0) ? a : 0;
-    other.wound(a);
-    return other.hp > 0;
+    other.set_hp(a);
+    return other.cur_hp > 0;
 }
 
-bool Characters::interact(Item &other) {
-    std::cout << "You interact with item";
+void Characters::set_hp(int hp) {
+    this->cur_hp = std::min(cur_hp + hp, max_hp);
 }
 
-void Characters::wound(int hp) {
-    this->hp += hp;
+void Characters::set_weapon(Weapon *weapon) {
+    this->cur_weapon = weapon;
 }
 
-void Characters::change_weapon(int weapon) {
-    this->weapon = weapon;
-}
-
-void Characters::change_armor(int armor) {
-    this->armor = armor;
+void Characters::set_armor(Armor *armor) {
+    this->cur_armor = armor;
 }
 
 int Characters::get_hp() {
-    return hp;
+    return cur_hp;
 }
 
 int Characters::get_weapon() {
-    return weapon;
+    return cur_weapon->get_dmg();
 }
 
 int Characters::get_armor() {
-    return armor;
+    return cur_armor->get_def();
 }

@@ -19,7 +19,6 @@ add_executable(OOP_game main.cpp
                         game_obj/Characters/Characters.h
                         game_obj/Characters/Characters.cpp
                         game_obj/Items/Items.h
-                        game_obj/Items/Items.cpp
                         game_obj/Characters/Heroes/Backpack.h
                         game_obj/Characters/Heroes/Backpack.cpp
                         game_obj/Items/Bomb.h

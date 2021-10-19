@@ -5,11 +5,11 @@
 #include "../Game_obj_classes.h"
 
 class Items: public Game_obj{
-    bool interact(Game_obj *game_obj) override;
 
-    bool interact(Characters& ch) override;
-
-    bool interact(Items& it) = 0;
+    bool interact(Characters& ch) override{
+        std::cout << "Item interact with Character\n";
+        return false;
+    }
 
 };
 

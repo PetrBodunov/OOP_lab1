@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o"
   "CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o"
   "CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o"
-  "CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o"
   "CMakeFiles/OOP_game.dir/main.cpp.o"
   "CMakeFiles/OOP_game.dir/views/Field_View.cpp.o"
   "OOP_game"

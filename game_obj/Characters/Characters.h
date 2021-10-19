@@ -4,23 +4,24 @@
 #include "../Game_obj.h"
 
 class Characters: public Game_obj{
-protected:
+private:
     int max_hp;
     int cur_hp;
-    weapon, armor;
+    Weapon* cur_weapon;
+    Armor* cur_armor;
 
 public:
-    Characters(int hp, int weapon, int armor);
+    Characters(int max_hp, Weapon* cur_weapon = nullptr, Armor* cur_armor = nullptr);
+
+    bool interact(Game_obj* game_obj);
 
     bool interact(Characters& other);
 
-    bool interact(Item& other);
-
     void set_hp(int hp);
 
-    void set_weapon(int weapon);
+    void set_weapon(Weapon* weapon);
 
-    void set_armor(int armor);
+    void set_armor(Armor* armor);
 
     int get_hp();
 

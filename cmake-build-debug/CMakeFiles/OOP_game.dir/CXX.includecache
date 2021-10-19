@@ -6,67 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/master/work/etu/OOP_game/field/Field.cpp
-Field.h
-/home/master/work/etu/OOP_game/field/Field.h
-
-/home/master/work/etu/OOP_game/field/Field.h
-iostream
--
-cells/Abstract_cell.h
-/home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
-
-/home/master/work/etu/OOP_game/field/Field_Builder.cpp
-Field_Builder.h
-/home/master/work/etu/OOP_game/field/Field_Builder.h
-
-/home/master/work/etu/OOP_game/field/Field_Builder.h
-cells/Cell.h
-/home/master/work/etu/OOP_game/field/cells/Cell.h
-cells/Entrance.h
-/home/master/work/etu/OOP_game/field/cells/Entrance.h
-cells/Exit.h
-/home/master/work/etu/OOP_game/field/cells/Exit.h
-cells/Wall.h
-/home/master/work/etu/OOP_game/field/cells/Wall.h
-Field.h
-/home/master/work/etu/OOP_game/field/Field.h
-
-/home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
-../../game_obj/Game_obj.h
-/home/master/work/etu/OOP_game/game_obj/Game_obj.h
-
-/home/master/work/etu/OOP_game/field/cells/Cell.h
-Abstract_cell.h
-/home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
-
-/home/master/work/etu/OOP_game/field/cells/Entrance.h
-Cell.h
-/home/master/work/etu/OOP_game/field/cells/Cell.h
-
-/home/master/work/etu/OOP_game/field/cells/Exit.h
-Cell.h
-/home/master/work/etu/OOP_game/field/cells/Cell.h
-
-/home/master/work/etu/OOP_game/field/cells/Wall.h
-Abstract_cell.h
-/home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
-
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp
-Characters.h
-/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+../Items/Weapon.h
+/home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
+../Items/Armor.h
+/home/master/work/etu/OOP_game/game_obj/Items/Armor.h
 
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 ../Game_obj.h
 /home/master/work/etu/OOP_game/game_obj/Game_obj.h
-
-/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp
-Backpack.h
-/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
-
-/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
-Items/Items.h
-/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Items/Items.h
 
 /home/master/work/etu/OOP_game/game_obj/Game_obj.h
 iostream
@@ -76,9 +24,11 @@ Game_obj_classes.h
 
 /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
 
-/home/master/work/etu/OOP_game/game_obj/Items/Items.cpp
+/home/master/work/etu/OOP_game/game_obj/Items/Armor.h
 Items.h
 /home/master/work/etu/OOP_game/game_obj/Items/Items.h
+../Characters/Characters.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 
 /home/master/work/etu/OOP_game/game_obj/Items/Items.h
 ../Game_obj.h
@@ -86,27 +36,9 @@ Items.h
 ../Game_obj_classes.h
 /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
 
-/home/master/work/etu/OOP_game/main.cpp
-iostream
--
-./field/Field_Builder.h
-/home/master/work/etu/OOP_game/field/Field_Builder.h
-./views/Field_View.h
-/home/master/work/etu/OOP_game/views/Field_View.h
-
-/home/master/work/etu/OOP_game/views/Field_View.cpp
-Field_View.h
-/home/master/work/etu/OOP_game/views/Field_View.h
-
-/home/master/work/etu/OOP_game/views/Field_View.h
-../field/cells/Cell.h
-/home/master/work/etu/OOP_game/field/cells/Cell.h
-../field/cells/Entrance.h
-/home/master/work/etu/OOP_game/field/cells/Entrance.h
-../field/cells/Exit.h
-/home/master/work/etu/OOP_game/field/cells/Exit.h
-../field/cells/Wall.h
-/home/master/work/etu/OOP_game/field/cells/Wall.h
-../field/Field.h
-/home/master/work/etu/OOP_game/field/Field.h
+/home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
+Items.h
+/home/master/work/etu/OOP_game/game_obj/Items/Items.h
+../Characters/Characters.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 

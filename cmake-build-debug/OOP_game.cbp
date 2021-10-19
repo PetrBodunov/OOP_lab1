@@ -136,9 +136,6 @@
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Bomb.h">
 			<Option target="OOP_game"/>
 		</Unit>
-		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Items.cpp">
-			<Option target="OOP_game"/>
-		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Items.h">
 			<Option target="OOP_game"/>
 		</Unit>

@@ -22,14 +22,15 @@ CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Charac
 CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Characters/Characters.h
 CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Game_obj.h
 CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Items/Armor.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Items/Items.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Characters.cpp.o: ../game_obj/Items/Weapon.h
 
 CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Characters/Heroes/Backpack.cpp
 CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Characters/Heroes/Backpack.h
-
-CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Game_obj.h
-CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Game_obj_classes.h
-CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Items/Items.cpp
-CMakeFiles/OOP_game.dir/game_obj/Items/Items.cpp.o: ../game_obj/Items/Items.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Game_obj.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/Items/Items.h
 
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/Field.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/Field_Builder.h
