@@ -39,8 +39,18 @@ CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Cell.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Entrance.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Exit.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/cells/Wall.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Characters/Characters.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Characters/Enemies/Fransis.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Characters/Enemies/Gangster.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Characters/Enemies/Hoodlum.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Characters/Heroes/Hero.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Game_obj.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Armor.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Bomb.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Items.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Medicine.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Weapon.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../main.cpp
 CMakeFiles/OOP_game.dir/main.cpp.o: ../views/Field_View.h
 
@@ -50,8 +60,17 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Cell.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Entrance.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Exit.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/cells/Wall.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Characters.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Enemies/Fransis.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Enemies/Gangster.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Enemies/Hoodlum.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Heroes/Hero.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj_classes.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Armor.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Items.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Medicine.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Weapon.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../views/Field_View.cpp
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../views/Field_View.h
 

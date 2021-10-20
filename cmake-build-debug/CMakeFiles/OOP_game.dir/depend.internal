@@ -40,8 +40,18 @@ CMakeFiles/OOP_game.dir/main.cpp.o
  /home/master/work/etu/OOP_game/field/cells/Entrance.h
  /home/master/work/etu/OOP_game/field/cells/Exit.h
  /home/master/work/etu/OOP_game/field/cells/Wall.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Fransis.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Gangster.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Hoodlum.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Hero.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Armor.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Bomb.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Items.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Medicine.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
  /home/master/work/etu/OOP_game/main.cpp
  /home/master/work/etu/OOP_game/views/Field_View.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
@@ -51,7 +61,16 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
  /home/master/work/etu/OOP_game/field/cells/Entrance.h
  /home/master/work/etu/OOP_game/field/cells/Exit.h
  /home/master/work/etu/OOP_game/field/cells/Wall.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Fransis.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Gangster.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Hoodlum.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Hero.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Armor.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Items.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Medicine.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
  /home/master/work/etu/OOP_game/views/Field_View.cpp
  /home/master/work/etu/OOP_game/views/Field_View.h

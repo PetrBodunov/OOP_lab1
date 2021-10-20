@@ -61,6 +61,10 @@ Field & Field::operator=(Field &&other) {
     return *this;
 }
 
+Abstract_cell& Field::get(int i, int j) {
+    return *cells[i][j];
+}
+
 Field::~Field() {
     clear_Field();
 }

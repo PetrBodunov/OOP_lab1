@@ -12,8 +12,8 @@ public:
 
     virtual bool put_game_obj(Game_obj* game_obj) = 0;
 
-    Game_obj& get_game_obj(){
-        return *game_obj;
+    Game_obj* get_game_obj(){
+        return game_obj;
     }
 
     virtual Abstract_cell* copy() = 0;

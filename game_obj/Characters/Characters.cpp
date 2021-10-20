@@ -3,10 +3,6 @@
 
 Characters::Characters(int max_hp, Weapon* cur_weapon, Armor* cur_armor) : max_hp(max_hp), cur_hp(max_hp), cur_weapon(cur_weapon), cur_armor(cur_armor) {}
 
-bool Characters::interact(Game_obj *game_obj) {
-    return game_obj->interact(*this);
-}
-
 bool Characters::interact(Characters &other) {
     std::cout << "Fight\n";
     int a = (other.get_armor() - get_weapon());
@@ -16,15 +12,15 @@ bool Characters::interact(Characters &other) {
 }
 
 void Characters::set_hp(int hp) {
-    this->cur_hp = std::min(cur_hp + hp, max_hp);
+    cur_hp = std::min(cur_hp + hp, max_hp);
 }
 
 void Characters::set_weapon(Weapon *weapon) {
-    this->cur_weapon = weapon;
+    cur_weapon = weapon;
 }
 
 void Characters::set_armor(Armor *armor) {
-    this->cur_armor = armor;
+    cur_armor = armor;
 }
 
 int Characters::get_hp() {

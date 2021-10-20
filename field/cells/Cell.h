@@ -7,7 +7,7 @@ class Cell: public Abstract_cell{
 public:
 
     bool put_game_obj(Game_obj* game_obj) override {
-        if (!game_obj) {
+        if (!this->game_obj) {
             this->game_obj = game_obj;
             return true;
         }

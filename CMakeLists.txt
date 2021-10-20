@@ -26,7 +26,10 @@ add_executable(OOP_game main.cpp
                         game_obj/Items/Weapon.h
                         game_obj/Items/Armor.h
                         game_obj/Characters/Heroes/Hero.h
-                        game_obj/Game_obj_classes.h)
+                        game_obj/Game_obj_classes.h
+                        game_obj/Characters/Enemies/Fransis.h
+                        game_obj/Characters/Enemies/Gangster.h
+                        game_obj/Characters/Enemies/Hoodlum.h)
 
 
 message("Project built")

@@ -6,7 +6,6 @@
 
 class Game_obj{
 public:
-    virtual bool interact(Game_obj* game_obj) = 0;
 
     virtual bool interact(Characters& ch) = 0;
 };

@@ -115,6 +115,15 @@
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h">
 			<Option target="OOP_game"/>
 		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Fransis.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Gangster.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Hoodlum.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp">
 			<Option target="OOP_game"/>
 		</Unit>

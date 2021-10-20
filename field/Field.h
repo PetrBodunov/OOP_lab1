@@ -25,6 +25,8 @@ public:
 
     Field& operator=(Field&& other);
 
+    Abstract_cell& get(int i, int j);
+
     friend class Field_Builder;
 
     friend class Field_View;

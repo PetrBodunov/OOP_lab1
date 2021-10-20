@@ -9,7 +9,7 @@ class Weapon: public Items{
 
 public:
     Weapon(int dmg): dmg(dmg){}
-
+    
     bool interact(Characters &ch) override{
         ch.set_weapon(this);
     }
