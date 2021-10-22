@@ -7,7 +7,7 @@
 class Game_obj{
 public:
 
-    virtual bool interact(Characters& ch) = 0;
+    virtual bool interact(Characters* ch) = 0;
 };
 
 #endif //OOP_GAME_GAME_OBJ_H

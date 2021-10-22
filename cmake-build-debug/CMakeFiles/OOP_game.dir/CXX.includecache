@@ -31,6 +31,10 @@ Field.h
 /home/master/work/etu/OOP_game/field/cells/Cell.h
 Abstract_cell.h
 /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
+../../game_obj/Characters/Characters.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+../../game_obj/Items/Items.h
+/home/master/work/etu/OOP_game/game_obj/Items/Items.h
 
 /home/master/work/etu/OOP_game/field/cells/Entrance.h
 Cell.h

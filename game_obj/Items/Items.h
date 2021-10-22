@@ -6,7 +6,7 @@
 
 class Items: public Game_obj{
 
-    bool interact(Characters& ch) override{
+    bool interact(Characters* ch) override{
         std::cout << "Item interact with Character\n";
         return false;
     }

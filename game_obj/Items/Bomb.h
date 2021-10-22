@@ -7,8 +7,8 @@ class Bomb: public Items{
     int dmg;
 
 public:
-    bool interact(Characters& ch) override{
-        ch.set_hp(-dmg);
+    bool interact(Characters* ch) override{
+        ch->set_hp(-dmg);
     }
 };
 

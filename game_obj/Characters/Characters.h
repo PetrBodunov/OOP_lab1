@@ -4,7 +4,7 @@
 #include "../Game_obj.h"
 
 class Characters: public Game_obj{
-protected:
+private:
     int max_hp;
     int cur_hp;
     Weapon* cur_weapon;
@@ -13,7 +13,7 @@ protected:
 public:
     Characters(int max_hp, Weapon* cur_weapon = nullptr, Armor* cur_armor = nullptr);
 
-    bool interact(Characters& other);
+    bool interact(Characters* other);
 
     void set_hp(int hp);
 

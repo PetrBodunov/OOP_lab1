@@ -2,14 +2,31 @@
 #define OOP_GAME_CELL_H
 
 #include "Abstract_cell.h"
+#include "../../game_obj/Characters/Characters.h"
+#include "../../game_obj/Items/Items.h"
 
 class Cell: public Abstract_cell{
 public:
 
-    bool put_game_obj(Game_obj* game_obj) override {
+    bool put_game_obj(Game_obj* other) override {
         if (!this->game_obj) {
-            this->game_obj = game_obj;
+            this->game_obj = other;
             return true;
+        }
+        else if (dynamic_cast<Items*>(game_obj)) {
+            game_obj->interact((dynamic_cast<Characters*>(other)));
+            this->game_obj = other;
+            return true;
+        }
+        else {
+            if (!other->interact((dynamic_cast<Characters *>(game_obj)))) {
+                this->game_obj = other;
+                return true;
+            }
+
+            if (!game_obj->interact((dynamic_cast<Characters *>(other)))) {
+                return true;
+            }
         }
         return false;
     }

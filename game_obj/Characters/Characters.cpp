@@ -3,12 +3,12 @@
 
 Characters::Characters(int max_hp, Weapon* cur_weapon, Armor* cur_armor) : max_hp(max_hp), cur_hp(max_hp), cur_weapon(cur_weapon), cur_armor(cur_armor) {}
 
-bool Characters::interact(Characters &other) {
+bool Characters::interact(Characters *other) {
     std::cout << "Fight\n";
-    int a = (other.get_armor() - get_weapon());
+    int a = (other->get_armor() - get_weapon());
     a = (a < 0) ? a : 0;
-    other.set_hp(a);
-    return other.cur_hp > 0;
+    other->set_hp(a);
+    return other->cur_hp > 0;
 }
 
 void Characters::set_hp(int hp) {

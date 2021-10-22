@@ -10,8 +10,8 @@ class Armor: public Items{
 public:
     Armor(int def = 0): def(def){}
 
-    bool interact(Characters &ch) override{
-        ch.set_armor(this);
+    bool interact(Characters *ch) override{
+        ch->set_armor(this);
     }
 
     int get_def(){

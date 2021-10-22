@@ -13,7 +13,7 @@ int main(){
     Field_View view_f(&f);
     view_f.print_Field();
 
-    std::cout << "\n";
+    std::cout << "--------------------\n";
 
     Hero* h = new Hero();
     Weapon* w1 = new Weapon(10);
@@ -33,30 +33,35 @@ int main(){
     f.get(3,4).put_game_obj(hm);
     view_f.print_Field();
 
-    std::cout << "\n";
+    std::cout << "--------------------\n";
 
-    h->interact(*g);
+    h->interact(g);
     std::cout << h->get_hp() << "\n";
     std::cout << g->get_hp() << "\n";
 
     Weapon* w2 = new Weapon(50);
-    w2->interact(*h);
+    w2->interact(h);
 
     std::cout << "\n";
 
-    h->interact(*fr);
-    fr->interact(*h);
+    h->interact(fr);
+    fr->interact(h);
     std::cout << h->get_hp() << "\n";
     std::cout << fr->get_hp() << "\n";
 
     std::cout << "\n";
 
-    m1->interact(*h);
+    m1->interact(h);
     std::cout << h->get_hp() << "\n";
 
     std::cout << "\n";
 
-    m1->interact(*h);
+    m1->interact(h);
     std::cout << h->get_hp() << "\n";
+
+    std::cout << "--------------------\n";
+
+    f.get(0,1).move_game_obj(f.get(2,2));
+    view_f.print_Field();
 
 }
