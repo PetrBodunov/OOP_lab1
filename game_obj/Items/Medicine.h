@@ -13,7 +13,7 @@ public:
     Medicine(int hp_up): hp_up(hp_up) {}
 
     bool interact(Characters* ch) override{
-        ch->set_hp(hp_up);
+        ch->incr_hp(hp_up);
         return true;
     }
 };

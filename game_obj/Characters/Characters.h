@@ -15,7 +15,7 @@ public:
 
     bool interact(Characters* other);
 
-    void set_hp(int hp);
+    void incr_hp(int hp);
 
     void set_weapon(Weapon* weapon);
 

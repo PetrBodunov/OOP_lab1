@@ -7,11 +7,11 @@ bool Characters::interact(Characters *other) {
     std::cout << "Fight\n";
     int a = (other->get_armor() - get_weapon());
     a = (a < 0) ? a : 0;
-    other->set_hp(a);
+    other->incr_hp(a);
     return other->cur_hp > 0;
 }
 
-void Characters::set_hp(int hp) {
+void Characters::incr_hp(int hp) {
     cur_hp = std::min(cur_hp + hp, max_hp);
 }
 

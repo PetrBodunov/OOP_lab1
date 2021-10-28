@@ -19,7 +19,9 @@ public:
     bool move_game_obj(Abstract_cell& other){
         if (game_obj && other.put_game_obj(game_obj)){
             game_obj = nullptr;
+            return true;
         }
+        return false;
     }
     virtual Abstract_cell* copy() = 0;
 
