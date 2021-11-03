@@ -15,16 +15,19 @@ public:
         }
         else if (dynamic_cast<Items*>(game_obj)) {
             game_obj->interact((dynamic_cast<Characters*>(other)));
+            delete this->game_obj;
             this->game_obj = other;
             return true;
         }
         else {
             if (!other->interact((dynamic_cast<Characters *>(game_obj)))) {
+                delete this->game_obj;
                 this->game_obj = other;
                 return true;
             }
 
             if (!game_obj->interact((dynamic_cast<Characters *>(other)))) {
+                delete other;
                 return true;
             }
         }

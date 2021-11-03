@@ -70,29 +70,41 @@ int main(){
 //    std::cout << "--------------------\n";
 
 
-////test interact with character
-//    f.get(0,1).move_game_obj(f.get(2,3));
-//    f.get(0,1).move_game_obj(f.get(2,3));
-//    f.get(0,1).move_game_obj(f.get(2,3));
-//    f.get(0,1).move_game_obj(f.get(2,3));
-//    f.get(0,1).move_game_obj(f.get(2,3));
-//
-//    std::cout << "Hero's hp "<< h->get_hp() << "\n";
-//    std::cout << "Gangster's hp "<< g->get_hp() << "\n";
-//    view_f.print_Field();
-//    std::cout << "--------------------\n";
-//
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//    f.get(2,3).move_game_obj(f.get(3,1));
-//
-//    std::cout << "Hero's hp "<< h->get_hp() << "\n";
-//    std::cout << "Fransis's hp "<< fr->get_hp() << "\n";
-//    view_f.print_Field();
-//    std::cout << "--------------------\n";
+//test interact with character
+    std::cout << "Before fight\n";
+    std::cout << "Hero's hp "<< h->get_hp() << "\n";
+    std::cout << "Gangster's hp "<< g->get_hp() << "\n\n";
+
+    f.get(0,1).move_game_obj(f.get(2,3));
+    f.get(0,1).move_game_obj(f.get(2,3));
+    f.get(0,1).move_game_obj(f.get(2,3));
+    f.get(0,1).move_game_obj(f.get(2,3));
+    f.get(0,1).move_game_obj(f.get(2,3));
+
+    std::cout << "\nAfter fight\n";
+    std::cout << "Hero's hp "<< h->get_hp() << "\n";
+    std::cout << "Gangster's hp "<< g->get_hp() << "\n";
+    view_f.print_Field();
+
+
+    std::cout << "--------------------\n";
+
+    std::cout << "Before fight\n";
+    std::cout << "Hero's hp "<< h->get_hp() << "\n";
+    std::cout << "Fransis's hp "<< fr->get_hp() << "\n\n";
+
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+    f.get(2,3).move_game_obj(f.get(3,1));
+
+    std::cout << "\nAfter fight\n";
+    std::cout << "Hero's hp "<< h->get_hp() << "\n";
+    std::cout << "Fransis's hp "<< fr->get_hp() << "\n";
+    view_f.print_Field();
+    std::cout << "--------------------\n";
 }
