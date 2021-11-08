@@ -138,6 +138,10 @@ game_obj/Items/Medicine.h
 game_obj/Items/Bomb.h
 /home/master/work/etu/OOP_game/game_obj/Items/Bomb.h
 
+/home/master/work/etu/OOP_game/views/Field_View.cpp
+Field_View.h
+/home/master/work/etu/OOP_game/views/Field_View.h
+
 /home/master/work/etu/OOP_game/views/Field_View.h
 ../game_obj/Characters/Enemies/Fransis.h
 /home/master/work/etu/OOP_game/game_obj/Characters/Enemies/Fransis.h
@@ -163,4 +167,6 @@ game_obj/Items/Bomb.h
 /home/master/work/etu/OOP_game/field/cells/Wall.h
 ../field/Field.h
 /home/master/work/etu/OOP_game/field/Field.h
+map
+-
 

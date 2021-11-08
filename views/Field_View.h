@@ -13,10 +13,23 @@
 #include "../field/cells/Exit.h"
 #include "../field/cells/Wall.h"
 #include "../field/Field.h"
+#include <map>
 
 class Field_View{
 private:
     Field* f = nullptr;
+    std::map<size_t, std::string> display = {
+            {typeid(Cell).hash_code(), ".  "},
+            {typeid(Wall).hash_code(), "*  "},
+            {typeid(Entrance).hash_code(), "s  "},
+            {typeid(Exit).hash_code(), "f  "},
+            {typeid(Hero).hash_code(), "H  "},
+            {typeid(Armor).hash_code(), "a  "},
+            {typeid(Medicine).hash_code(), "m  "},
+            {typeid(Fransis).hash_code(),  "Fr "},
+            {typeid(Gangster).hash_code(), "G  "},
+            {typeid(Hoodlum).hash_code(), "Hm "}
+    };
 
 public:
     Field_View() = default;
