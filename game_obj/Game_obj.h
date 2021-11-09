@@ -3,8 +3,9 @@
 
 #include <iostream>
 #include "Game_obj_classes.h"
+#include "../logger/Logable.h"
 
-class Game_obj{
+class Game_obj: public Logable{
 public:
 
     virtual bool interact(Characters* ch) = 0;

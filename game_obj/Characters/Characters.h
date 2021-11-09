@@ -26,6 +26,8 @@ public:
     int get_weapon();
 
     int get_armor();
+
+    std::string get_info();
 };
 
 #endif //OOP_GAME_CHARACTERS_H

@@ -154,6 +154,15 @@
 		<Unit filename="/home/master/work/etu/OOP_game/game_obj/Items/Weapon.h">
 			<Option target="OOP_game"/>
 		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/logger/Logable.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/logger/Logger.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/logger/Terminal_Logger.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/main.cpp">
 			<Option target="OOP_game"/>
 		</Unit>

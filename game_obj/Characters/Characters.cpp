@@ -34,3 +34,7 @@ int Characters::get_weapon() {
 int Characters::get_armor() {
     return cur_armor->get_def();
 }
+
+std::string Characters::get_info() {
+    return "Hero:\nMax hp: " + std::to_string(max_hp) + "\nСurrent hp: " + std::to_string(cur_hp) + "\nArmor: " + std::to_string(get_armor()) + "\nWeapon: " + std::to_string(get_weapon());
+}

@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/master/work/etu/OOP_game/field/Field.cpp
+Field.h
+/home/master/work/etu/OOP_game/field/Field.h
+
 /home/master/work/etu/OOP_game/field/Field.h
 iostream
 -
 cells/Abstract_cell.h
 /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
+
+/home/master/work/etu/OOP_game/field/Field_Builder.cpp
+Field_Builder.h
+/home/master/work/etu/OOP_game/field/Field_Builder.h
 
 /home/master/work/etu/OOP_game/field/Field_Builder.h
 cells/Cell.h
@@ -48,6 +56,12 @@ Cell.h
 Abstract_cell.h
 /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
 
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.cpp
+../Items/Weapon.h
+/home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
+../Items/Armor.h
+/home/master/work/etu/OOP_game/game_obj/Items/Armor.h
+
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 ../Game_obj.h
 /home/master/work/etu/OOP_game/game_obj/Game_obj.h
@@ -76,6 +90,14 @@ Abstract_cell.h
 ../../Items/Armor.h
 /home/master/work/etu/OOP_game/game_obj/Items/Armor.h
 
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.cpp
+Backpack.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
+
+/home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Backpack.h
+../../Items/Items.h
+/home/master/work/etu/OOP_game/game_obj/Items/Items.h
+
 /home/master/work/etu/OOP_game/game_obj/Characters/Heroes/Hero.h
 ../Characters.h
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
@@ -89,6 +111,8 @@ iostream
 -
 Game_obj_classes.h
 /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+../logger/Logable.h
+/home/master/work/etu/OOP_game/logger/Logable.h
 
 /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
 
@@ -118,6 +142,18 @@ Items.h
 Items.h
 /home/master/work/etu/OOP_game/game_obj/Items/Items.h
 ../Characters/Characters.h
+/home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
+
+/home/master/work/etu/OOP_game/logger/Logable.h
+vector
+-
+Logger.h
+/home/master/work/etu/OOP_game/logger/Logger.h
+
+/home/master/work/etu/OOP_game/logger/Logger.h
+string
+-
+../game_obj/Characters/Characters.h
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 
 /home/master/work/etu/OOP_game/main.cpp
