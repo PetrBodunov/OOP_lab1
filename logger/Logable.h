@@ -16,7 +16,7 @@ public:
     void noify(){
         std::string info = get_info();
         for (auto& obs: loggers)
-            obs->log(info);
+            *(obs) << (info);
     }
 
     virtual std::string get_info() = 0;

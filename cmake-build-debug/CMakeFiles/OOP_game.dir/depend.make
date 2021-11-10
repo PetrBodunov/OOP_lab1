@@ -61,6 +61,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Bomb.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Items.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Medicine.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../game_obj/Items/Weapon.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/File_Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Logable.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Terminal_Logger.h

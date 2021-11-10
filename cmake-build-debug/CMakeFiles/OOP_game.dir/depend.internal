@@ -62,6 +62,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o
  /home/master/work/etu/OOP_game/game_obj/Items/Items.h
  /home/master/work/etu/OOP_game/game_obj/Items/Medicine.h
  /home/master/work/etu/OOP_game/game_obj/Items/Weapon.h
+ /home/master/work/etu/OOP_game/logger/File_Logger.h
  /home/master/work/etu/OOP_game/logger/Logable.h
  /home/master/work/etu/OOP_game/logger/Logger.h
  /home/master/work/etu/OOP_game/logger/Terminal_Logger.h

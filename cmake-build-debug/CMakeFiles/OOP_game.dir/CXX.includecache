@@ -122,6 +122,12 @@ Items.h
 ../Characters/Characters.h
 /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
 
+/home/master/work/etu/OOP_game/logger/File_Logger.h
+Logger.h
+/home/master/work/etu/OOP_game/logger/Logger.h
+fstream
+-
+
 /home/master/work/etu/OOP_game/logger/Logable.h
 vector
 -
@@ -155,6 +161,8 @@ game_obj/Items/Bomb.h
 /home/master/work/etu/OOP_game/game_obj/Items/Bomb.h
 logger/Terminal_Logger.h
 /home/master/work/etu/OOP_game/logger/Terminal_Logger.h
+logger/File_Logger.h
+/home/master/work/etu/OOP_game/logger/File_Logger.h
 
 /home/master/work/etu/OOP_game/views/Field_View.h
 ../game_obj/Characters/Enemies/Fransis.h

@@ -7,7 +7,7 @@
 #include "game_obj/Items/Medicine.h"
 #include "game_obj/Items/Bomb.h"
 #include "logger/Terminal_Logger.h"
-
+#include "logger/File_Logger.h"
 
 int main(){
     Field f = Field_Builder(5,5).without_walls_build();
@@ -25,7 +25,9 @@ int main(){
     Hoodlum* hm = new Hoodlum();
 
     Terminal_Logger* t1 = new Terminal_Logger();
-    m1->add_logger(t1);
+    h->add_logger(t1);
+    File_Logger* f1 = new File_Logger("File.log");
+    m1->add_logger(f1);
 
     f.get(0,1).put_game_obj(h);
     f.get(3,3).put_game_obj(w1);
@@ -78,7 +80,7 @@ int main(){
     std::cout << "Hero's hp "<< h->get_hp() << "\n";
     std::cout << "Gangster's hp "<< g->get_hp() << "\n\n";
 
-    f.get(0,1).move_game_obj(f.get(2,2));
+//    f.get(0,1).move_game_obj(f.get(2,2));
 
     f.get(0,1).move_game_obj(f.get(2,3));
     f.get(0,1).move_game_obj(f.get(2,3));
@@ -112,4 +114,5 @@ int main(){
     std::cout << "Fransis's hp "<< fr->get_hp() << "\n";
     view_f.print_Field();
     std::cout << "--------------------\n";
+
 }

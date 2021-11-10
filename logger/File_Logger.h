@@ -2,17 +2,23 @@
 #define OOP_GAME_FILE_LOGGER_H
 
 #include "Logger.h"
+#include <fstream>
 
 class File_Logger: public Logger{
-    std::string file_name;
+    std::ofstream f;
 
 public:
-    File_Logger(std::string file_name): file_name(file_name), Logger() {
+    File_Logger(std::string file_name): Logger() {
+        f.open(file_name);
+        f << "Hello World!" << std::endl;
+    }
 
+    ~File_Logger() {
+        f.close();
     }
 
     void log(std::string info) override{
-        std::cout << pref << info << suff;
+        f << pref << info << suff << std::endl;
     }
 };
 
