@@ -3,9 +3,12 @@
 
 #include "Logger.h"
 
-class Terminal_Loger: Logger{
-    void log() override{
-        std::cout << pref << model->get_info() << suff;
+class Terminal_Logger: public Logger{
+public:
+    Terminal_Logger(): Logger() {}
+
+    void log(std::string info) override{
+        std::cout << pref << info << suff;
     }
 };
 

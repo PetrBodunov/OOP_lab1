@@ -9,6 +9,12 @@ class Bomb: public Items{
 public:
     bool interact(Characters* ch) override{
         ch->incr_hp(-dmg);
+        noify();
+        return true;
+    }
+
+    std::string get_info() override{
+        return "BOOM!!!\n";
     }
 };
 

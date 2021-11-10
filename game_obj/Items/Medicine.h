@@ -14,7 +14,12 @@ public:
 
     bool interact(Characters* ch) override{
         ch->incr_hp(hp_up);
+        noify();
         return true;
+    }
+
+    std::string get_info() override{
+        return "Pick up medicine\n";
     }
 };
 

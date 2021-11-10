@@ -6,6 +6,7 @@
 #include "game_obj/Items/Weapon.h"
 #include "game_obj/Items/Medicine.h"
 #include "game_obj/Items/Bomb.h"
+#include "logger/Terminal_Logger.h"
 
 
 int main(){
@@ -23,6 +24,8 @@ int main(){
     Gangster* g = new Gangster();
     Hoodlum* hm = new Hoodlum();
 
+    Terminal_Logger* t1 = new Terminal_Logger();
+    m1->add_logger(t1);
 
     f.get(0,1).put_game_obj(h);
     f.get(3,3).put_game_obj(w1);
@@ -74,6 +77,8 @@ int main(){
     std::cout << "Before fight\n";
     std::cout << "Hero's hp "<< h->get_hp() << "\n";
     std::cout << "Gangster's hp "<< g->get_hp() << "\n\n";
+
+    f.get(0,1).move_game_obj(f.get(2,2));
 
     f.get(0,1).move_game_obj(f.get(2,3));
     f.get(0,1).move_game_obj(f.get(2,3));

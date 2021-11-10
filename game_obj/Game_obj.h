@@ -7,7 +7,6 @@
 
 class Game_obj: public Logable{
 public:
-
     virtual bool interact(Characters* ch) = 0;
 };
 

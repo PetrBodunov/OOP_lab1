@@ -13,14 +13,17 @@ bool Characters::interact(Characters *other) {
 
 void Characters::incr_hp(int hp) {
     cur_hp = std::min(cur_hp + hp, max_hp);
+    noify();
 }
 
 void Characters::set_weapon(Weapon *weapon) {
     cur_weapon = weapon;
+    noify();
 }
 
 void Characters::set_armor(Armor *armor) {
     cur_armor = armor;
+    noify();
 }
 
 int Characters::get_hp() {
@@ -36,5 +39,6 @@ int Characters::get_armor() {
 }
 
 std::string Characters::get_info() {
-    return "Hero:\nMax hp: " + std::to_string(max_hp) + "\nСurrent hp: " + std::to_string(cur_hp) + "\nArmor: " + std::to_string(get_armor()) + "\nWeapon: " + std::to_string(get_weapon());
+    std::string s = "Characters:\nMax hp: " + std::to_string(max_hp) + "\nСurrent hp: " + std::to_string(cur_hp) + "\nArmor defence: " + std::to_string(get_armor()) + "\nWeapon damage: " + std::to_string(get_weapon()) + "\n\n";
+    return s;
 }
