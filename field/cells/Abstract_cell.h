@@ -17,7 +17,7 @@ public:
     }
 
     bool move_game_obj(Abstract_cell& other){
-        if (game_obj && other.put_game_obj(game_obj)){
+        if (this != &other && other.put_game_obj(game_obj)){
             game_obj = nullptr;
             return true;
         }

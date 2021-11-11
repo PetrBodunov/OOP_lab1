@@ -24,12 +24,12 @@ int main(){
     Gangster* g = new Gangster();
     Hoodlum* hm = new Hoodlum();
 
-    Terminal_Logger* t1 = new Terminal_Logger();
+    Terminal_Logger* t1 = new Terminal_Logger("Hero :","good\n");
     h->add_logger(t1);
     File_Logger* f1 = new File_Logger("File.log");
     m1->add_logger(f1);
 
-    f.get(0,1).put_game_obj(h);
+    f.get(0,2).put_game_obj(h);
     f.get(3,3).put_game_obj(w1);
     f.get(4,2).put_game_obj(a1);
     f.get(2,2).put_game_obj(m1);
@@ -76,11 +76,18 @@ int main(){
 
 
 //test interact with character
+
+    f.get(0,2).move_game_obj(f.get(0,1));
+    view_f.print_Field();
+    std::cout << "--------------------\n";
+
+
+
+
     std::cout << "Before fight\n";
     std::cout << "Hero's hp "<< h->get_hp() << "\n";
     std::cout << "Gangster's hp "<< g->get_hp() << "\n\n";
 
-//    f.get(0,1).move_game_obj(f.get(2,2));
 
     f.get(0,1).move_game_obj(f.get(2,3));
     f.get(0,1).move_game_obj(f.get(2,3));

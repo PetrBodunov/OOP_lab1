@@ -28,6 +28,8 @@ public:
     int get_armor();
 
     std::string get_info();
+
+    ~Characters();
 };
 
 #endif //OOP_GAME_CHARACTERS_H

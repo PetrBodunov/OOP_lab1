@@ -10,7 +10,6 @@ class File_Logger: public Logger{
 public:
     File_Logger(std::string file_name): Logger() {
         f.open(file_name);
-        f << "Hello World!" << std::endl;
     }
 
     ~File_Logger() {

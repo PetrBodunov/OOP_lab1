@@ -31,7 +31,9 @@ add_executable(OOP_game main.cpp
                         game_obj/Characters/Enemies/Gangster.h
                         game_obj/Characters/Enemies/Hoodlum.h
                         logger/Logable.h
-                        logger/Logger.h logger/Terminal_Logger.h logger/File_Logger.h)
+                        logger/Logger.h
+                        logger/Terminal_Logger.h
+                        logger/File_Logger.h )
 
 
 message("Project built")

@@ -37,6 +37,11 @@ public:
     Abstract_cell *copy() override {
         return new Cell;
     }
+
+    ~Cell(){
+        if (game_obj)
+            delete game_obj;
+    }
 };
 
 #endif //OOP_GAME_CELL_H

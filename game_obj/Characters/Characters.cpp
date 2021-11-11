@@ -39,6 +39,15 @@ int Characters::get_armor() {
 }
 
 std::string Characters::get_info() {
-    std::string s = "Characters:\nMax hp: " + std::to_string(max_hp) + "\nСurrent hp: " + std::to_string(cur_hp) + "\nArmor defence: " + std::to_string(get_armor()) + "\nWeapon damage: " + std::to_string(get_weapon()) + "\n\n";
+    std::string s = "Characters:\nMax hp: " + std::to_string(max_hp) + "\nСurrent hp: " + std::to_string(cur_hp) + "\nArmor defence: " + std::to_string(get_armor()) + "\nWeapon damage: " + std::to_string(get_weapon()) + "\n";
     return s;
+}
+
+
+
+Characters::~Characters() {
+    if (cur_weapon)
+        delete cur_weapon;
+    if (cur_armor)
+        delete cur_armor;
 }

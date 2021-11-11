@@ -5,7 +5,7 @@
 
 class Terminal_Logger: public Logger{
 public:
-    Terminal_Logger(): Logger() {}
+    Terminal_Logger(std::string pref = "", std::string suff = ""): Logger(pref, suff) {}
 
     void log(std::string info) override{
         std::cout << pref << info << suff;
