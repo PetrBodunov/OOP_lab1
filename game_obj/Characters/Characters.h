@@ -13,9 +13,9 @@ private:
 public:
     Characters(int max_hp, Weapon* cur_weapon = nullptr, Armor* cur_armor = nullptr);
 
-    bool interact(Characters* other);
+    bool interact(Game_obj* other);
 
-    void incr_hp(int hp);
+    void change_hp(int hp);
 
     void set_weapon(Weapon* weapon);
 
@@ -26,8 +26,6 @@ public:
     int get_weapon();
 
     int get_armor();
-
-    std::string get_info();
 
     ~Characters();
 };

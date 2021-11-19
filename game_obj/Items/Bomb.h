@@ -2,19 +2,19 @@
 #define OOP_GAME_BOMB_H
 
 #include "Items.h"
+#include "../Characters/Characters.h"
+
 
 class Bomb: public Items{
     int dmg;
 
 public:
-    bool interact(Characters* ch) override{
-        ch->incr_hp(-dmg);
-        noify();
-        return true;
-    }
+    Bomb(int dmg): dmg(dmg) {}
 
-    std::string get_info() override{
-        return "BOOM!!!\n";
+    bool interact(Characters* ch) override{
+        ch->change_hp(-dmg);
+        noify("BOOM!!!\n");
+        return true;
     }
 };
 

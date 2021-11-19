@@ -33,7 +33,7 @@ add_executable(OOP_game main.cpp
                         logger/Logable.h
                         logger/Logger.h
                         logger/Terminal_Logger.h
-                        logger/File_Logger.h )
+                        logger/File_Logger.h)
 
 
 message("Project built")

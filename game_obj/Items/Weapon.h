@@ -12,16 +12,12 @@ public:
     
     bool interact(Characters *ch) override{
         ch->set_weapon(this);
-        noify();
+        noify("Pick up a weapon\n");
         return true;
     }
 
     int get_dmg(){
         return dmg;
-    }
-
-    std::string get_info() override{
-        return "Pick up a weapon \n";
     }
 };
 

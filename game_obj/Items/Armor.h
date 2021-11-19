@@ -12,16 +12,12 @@ public:
 
     bool interact(Characters *ch) override{
         ch->set_armor(this);
-        noify();
+        noify("Pick up an armor\n");
         return true;
     }
 
     int get_def(){
         return def;
-    }
-
-    std::string get_info() override{
-        return "Pick up an armor\n";
     }
 };
 

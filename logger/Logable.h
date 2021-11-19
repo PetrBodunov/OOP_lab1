@@ -13,13 +13,10 @@ public:
         loggers.push_back(logger);
     }
 
-    void noify(){
-        std::string info = get_info();
+    void noify(std::string info){
         for (auto& obs: loggers)
             *(obs) << (info);
     }
-
-    virtual std::string get_info() = 0;
 
 };
 #endif //OOP_GAME_LOGABLE_H

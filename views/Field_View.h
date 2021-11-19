@@ -6,6 +6,7 @@
 #include "../game_obj/Characters/Enemies/Gangster.h"
 #include "../game_obj/Items/Armor.h"
 #include "../game_obj/Items/Weapon.h"
+#include "../game_obj/Items/Bomb.h"
 #include "../game_obj/Items/Medicine.h"
 #include "../game_obj/Characters/Heroes/Hero.h"
 #include "../field/cells/Cell.h"
@@ -25,6 +26,8 @@ private:
             {typeid(Exit).hash_code(), "f  "},
             {typeid(Hero).hash_code(), "H  "},
             {typeid(Armor).hash_code(), "a  "},
+            {typeid(Weapon).hash_code(), "w  "},
+            {typeid(Bomb).hash_code(), "!  "},
             {typeid(Medicine).hash_code(), "m  "},
             {typeid(Fransis).hash_code(),  "Fr "},
             {typeid(Gangster).hash_code(), "G  "},

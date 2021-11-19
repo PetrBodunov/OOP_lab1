@@ -9,17 +9,12 @@ private:
     int hp_up;
 
 public:
-
     Medicine(int hp_up): hp_up(hp_up) {}
 
     bool interact(Characters* ch) override{
-        ch->incr_hp(hp_up);
-        noify();
+        ch->change_hp(hp_up);
+        noify("Pick up a medicine\n");
         return true;
-    }
-
-    std::string get_info() override{
-        return "Pick up medicine\n";
     }
 };
 

@@ -82,6 +82,7 @@ CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Characters/Heroes/He
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Game_obj_classes.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Armor.h
+CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Bomb.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Items.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Medicine.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../game_obj/Items/Weapon.h

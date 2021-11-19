@@ -19,4 +19,4 @@ public:
     virtual void log(std::string info) = 0;
 };
 
-#endif //OOP_GAME_LOGGER_H
+#endif //OOP_GAME_LOGGER_
