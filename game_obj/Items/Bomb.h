@@ -9,11 +9,11 @@ class Bomb: public Items{
     int dmg;
 
 public:
-    Bomb(int dmg): dmg(dmg) {}
+    Bomb(int dmg = 10): dmg(dmg) {}
 
     bool interact(Characters* ch) override{
         ch->change_hp(-dmg);
-        noify("BOOM!!!\n");
+        notify("BOOM!!!\n");
         return true;
     }
 };

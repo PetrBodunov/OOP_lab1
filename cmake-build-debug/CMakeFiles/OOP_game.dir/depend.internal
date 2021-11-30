@@ -5,8 +5,11 @@ CMakeFiles/OOP_game.dir/field/Field.cpp.o
  /home/master/work/etu/OOP_game/field/Field.cpp
  /home/master/work/etu/OOP_game/field/Field.h
  /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
+ /home/master/work/etu/OOP_game/field/cells/Cell.h
+ /home/master/work/etu/OOP_game/game_obj/Characters/Characters.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj.h
  /home/master/work/etu/OOP_game/game_obj/Game_obj_classes.h
+ /home/master/work/etu/OOP_game/game_obj/Items/Items.h
  /home/master/work/etu/OOP_game/logger/Logable.h
  /home/master/work/etu/OOP_game/logger/Logger.h
 CMakeFiles/OOP_game.dir/field/Field_Builder.cpp.o
@@ -43,6 +46,8 @@ CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o
  /home/master/work/etu/OOP_game/logger/Logable.h
  /home/master/work/etu/OOP_game/logger/Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o
+ /home/master/work/etu/OOP_game/Game/Game.h
+ /home/master/work/etu/OOP_game/Rules/Rules.h
  /home/master/work/etu/OOP_game/field/Field.h
  /home/master/work/etu/OOP_game/field/Field_Builder.h
  /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h

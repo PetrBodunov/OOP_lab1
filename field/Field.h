@@ -27,6 +27,12 @@ public:
 
     Abstract_cell& get(int i, int j);
 
+    int get_rows();
+
+    int get_columns();
+
+    void set_obj(std::vector<Game_obj*> obj);
+
     friend class Field_Builder;
 
     friend class Field_View;

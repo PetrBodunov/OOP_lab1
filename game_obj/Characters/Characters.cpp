@@ -16,7 +16,7 @@ bool Characters::interact(Game_obj *oth) {
 
 void Characters::change_hp(int hp) {
     cur_hp = std::min(cur_hp + hp, max_hp);
-    noify("Change hp to " + std::to_string(cur_hp));
+    notify("Change hp to " + std::to_string(cur_hp));
 }
 
 void Characters::set_weapon(Weapon *weapon) {
@@ -26,7 +26,7 @@ void Characters::set_weapon(Weapon *weapon) {
         delete weapon;
         cur_weapon = new Weapon(dm);
     }
-    noify("Current weapon with " + std::to_string(get_weapon()) + " damage\n");
+    notify("Current weapon with " + std::to_string(get_weapon()) + " damage\n");
 }
 
 void Characters::set_armor(Armor *armor) {
@@ -34,7 +34,7 @@ void Characters::set_armor(Armor *armor) {
         delete cur_armor;
         cur_armor = armor;
     }
-    noify("Current armor with " + std::to_string(get_armor()) + " defence\n");
+    notify("Current armor with " + std::to_string(get_armor()) + " defence\n");
 }
 
 int Characters::get_hp() {

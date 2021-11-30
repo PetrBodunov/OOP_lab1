@@ -8,11 +8,11 @@ class Weapon: public Items{
     int dmg;
 
 public:
-    Weapon(int dmg): dmg(dmg){}
+    Weapon(int dmg = 10): dmg(dmg){}
     
     bool interact(Characters *ch) override{
         ch->set_weapon(this);
-        noify("Pick up a weapon\n");
+        notify("Pick up a weapon\n");
         return true;
     }
 

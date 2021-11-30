@@ -13,7 +13,7 @@ public:
         loggers.push_back(logger);
     }
 
-    void noify(std::string info){
+    void notify(std::string info){
         for (auto& obs: loggers)
             *(obs) << (info);
     }

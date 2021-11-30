@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/master/work/etu/OOP_game/Game/Game.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/Rules/Rules.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/field/Field.cpp">
 			<Option target="OOP_game"/>
 		</Unit>

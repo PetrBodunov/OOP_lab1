@@ -1,4 +1,6 @@
 #include "Field.h"
+#include "./cells/Cell.h"
+
 
 void Field::copy_Field(const Field &other) {
     rows = other.rows;
@@ -65,6 +67,26 @@ Abstract_cell& Field::get(int i, int j) {
     return *cells[i][j];
 }
 
+void Field::set_obj(std::vector<Game_obj *> obj) {
+    for (auto i : obj){
+        int x = rand() % (rows - 1);
+        int y = rand() % (columns - 1);
+        while (!(typeid(*(cells[y][x])) == typeid(Cell) && cells[y][x]->get_game_obj() == nullptr)) {
+            x = rand() % (rows - 1);
+            y = rand() % (columns - 1);
+        }
+        cells[y][x]->put_game_obj(i);
+    }
+}
+
 Field::~Field() {
     clear_Field();
+}
+
+int Field::get_columns() {
+    return columns;
+}
+
+int Field::get_rows() {
+    return rows;
 }

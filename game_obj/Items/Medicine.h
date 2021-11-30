@@ -9,11 +9,11 @@ private:
     int hp_up;
 
 public:
-    Medicine(int hp_up): hp_up(hp_up) {}
+    Medicine(int hp_up = 10): hp_up(hp_up) {}
 
     bool interact(Characters* ch) override{
         ch->change_hp(hp_up);
-        noify("Pick up a medicine\n");
+        notify("Pick up a medicine\n");
         return true;
     }
 };

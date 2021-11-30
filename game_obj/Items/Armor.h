@@ -8,11 +8,11 @@ class Armor: public Items{
     int def;
 
 public:
-    Armor(int def = 0): def(def){}
+    Armor(int def = 10): def(def){}
 
     bool interact(Characters *ch) override{
         ch->set_armor(this);
-        noify("Pick up an armor\n");
+        notify("Pick up an armor\n");
         return true;
     }
 
