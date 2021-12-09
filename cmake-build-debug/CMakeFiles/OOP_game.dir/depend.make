@@ -45,6 +45,9 @@ CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../game_obj/I
 CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../logger/Logable.h
 CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o: ../logger/Logger.h
 
+CMakeFiles/OOP_game.dir/main.cpp.o: ../AdapterInput/Action.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../AdapterInput/AdapterInput.h
+CMakeFiles/OOP_game.dir/main.cpp.o: ../AdapterInput/ConsoleAdapter.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../Game/Game.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../Rules/Rules.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../field/Field.h
@@ -71,6 +74,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Logable.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../logger/Terminal_Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../main.cpp
+CMakeFiles/OOP_game.dir/main.cpp.o: ../point/Point.h
 CMakeFiles/OOP_game.dir/main.cpp.o: ../views/Field_View.h
 
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o: ../field/Field.h

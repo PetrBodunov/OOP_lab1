@@ -46,6 +46,9 @@ CMakeFiles/OOP_game.dir/game_obj/Characters/Heroes/Backpack.cpp.o
  /home/master/work/etu/OOP_game/logger/Logable.h
  /home/master/work/etu/OOP_game/logger/Logger.h
 CMakeFiles/OOP_game.dir/main.cpp.o
+ /home/master/work/etu/OOP_game/AdapterInput/Action.h
+ /home/master/work/etu/OOP_game/AdapterInput/AdapterInput.h
+ /home/master/work/etu/OOP_game/AdapterInput/ConsoleAdapter.h
  /home/master/work/etu/OOP_game/Game/Game.h
  /home/master/work/etu/OOP_game/Rules/Rules.h
  /home/master/work/etu/OOP_game/field/Field.h
@@ -72,6 +75,7 @@ CMakeFiles/OOP_game.dir/main.cpp.o
  /home/master/work/etu/OOP_game/logger/Logger.h
  /home/master/work/etu/OOP_game/logger/Terminal_Logger.h
  /home/master/work/etu/OOP_game/main.cpp
+ /home/master/work/etu/OOP_game/point/Point.h
  /home/master/work/etu/OOP_game/views/Field_View.h
 CMakeFiles/OOP_game.dir/views/Field_View.cpp.o
  /home/master/work/etu/OOP_game/field/Field.h

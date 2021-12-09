@@ -9,10 +9,10 @@ public:
         return new Exit;
     }
 
-    ~Exit(){
-        if (game_obj)
-            delete game_obj;
-    }
+//    ~Exit(){
+//        if (game_obj)
+//            delete game_obj;
+//    }
 };
 
 #endif //OOP_GAME_EXIT_H

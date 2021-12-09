@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/master/work/etu/OOP_game/AdapterInput/Action.h
+
+/home/master/work/etu/OOP_game/AdapterInput/AdapterInput.h
+Action.h
+/home/master/work/etu/OOP_game/AdapterInput/Action.h
+
+/home/master/work/etu/OOP_game/AdapterInput/ConsoleAdapter.h
+AdapterInput.h
+/home/master/work/etu/OOP_game/AdapterInput/AdapterInput.h
+map
+-
+
 /home/master/work/etu/OOP_game/Game/Game.h
 ../Rules/Rules.h
 /home/master/work/etu/OOP_game/Rules/Rules.h
@@ -35,6 +47,12 @@ vector
 /home/master/work/etu/OOP_game/logger/Terminal_Logger.h
 ../logger/File_Logger.h
 /home/master/work/etu/OOP_game/logger/File_Logger.h
+../point/Point.h
+/home/master/work/etu/OOP_game/point/Point.h
+../AdapterInput/Action.h
+/home/master/work/etu/OOP_game/AdapterInput/Action.h
+../AdapterInput/ConsoleAdapter.h
+/home/master/work/etu/OOP_game/AdapterInput/ConsoleAdapter.h
 
 /home/master/work/etu/OOP_game/Rules/Rules.h
 
@@ -183,6 +201,8 @@ iostream
 /home/master/work/etu/OOP_game/Game/Game.h
 ./field/Field_Builder.h
 /home/master/work/etu/OOP_game/field/Field_Builder.h
+
+/home/master/work/etu/OOP_game/point/Point.h
 
 /home/master/work/etu/OOP_game/views/Field_View.h
 ../game_obj/Characters/Enemies/Fransis.h

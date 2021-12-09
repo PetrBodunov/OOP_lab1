@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/master/work/etu/OOP_game/AdapterInput/Action.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/AdapterInput/AdapterInput.h">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/AdapterInput/ConsoleAdapter.h">
+			<Option target="OOP_game"/>
+		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/Game/Game.h">
 			<Option target="OOP_game"/>
 		</Unit>
@@ -173,6 +182,9 @@
 			<Option target="OOP_game"/>
 		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/main.cpp">
+			<Option target="OOP_game"/>
+		</Unit>
+		<Unit filename="/home/master/work/etu/OOP_game/point/Point.h">
 			<Option target="OOP_game"/>
 		</Unit>
 		<Unit filename="/home/master/work/etu/OOP_game/views/Field_View.cpp">

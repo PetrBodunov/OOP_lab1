@@ -35,7 +35,10 @@ add_executable(OOP_game main.cpp
                         logger/Terminal_Logger.h
                         logger/File_Logger.h
                         Rules/Rules.h
-                        Game/Game.h)
+                        Game/Game.h point/Point.h
+                        AdapterInput/AdapterInput.h
+                        AdapterInput/Action.h
+                        AdapterInput/ConsoleAdapter.h)
 
 
 message("Project built")

@@ -15,6 +15,9 @@
 #include "../views/Field_View.h"
 #include "../logger/Terminal_Logger.h"
 #include "../logger/File_Logger.h"
+#include "../point/Point.h"
+#include "../AdapterInput/Action.h"
+#include "../AdapterInput/ConsoleAdapter.h"
 
 
 template <template<int, int> class R, int enemycount, int itemcount>
@@ -24,32 +27,38 @@ private:
     Field* f;
 
     void move_enemies(){
+        std::vector<Point> EnemyPoint;
         for (int i = 0; i < f->get_columns(); i++){
             for (int j = 0; j < f->get_rows(); j++){
                 if ((f->get(i,j).get_game_obj()) && ((typeid(*(f->get(i,j).get_game_obj())) == typeid(Hoodlum)) || (typeid(*(f->get(i,j).get_game_obj())) == typeid(Fransis)) || (typeid(*(f->get(i,j).get_game_obj())) == typeid(Gangster)))){
-                    move(i,j);
+                    EnemyPoint.push_back(Point(i,j));
                 }
             }
         }
+        for (int i = 0; i < EnemyPoint.size(); i++){
+            move(EnemyPoint[i]);
+        }
     }
 
-    bool move(int y, int x){
-        if (0 <= y + 1 && y + 1 < f->get_columns()) {
+    bool move(Point p){
+        int y = p.gety();
+        int x = p.getx();
+        if (y + 1 < f->get_columns()) {
             if (f->get(y, x).move_game_obj(f->get(y + 1, x)))
                 return true;
         }
 
-        if (0 <= x + 1 && x + 1 < f->get_rows()) {
+        if (x + 1 < f->get_rows()) {
             if (f->get(y, x).move_game_obj(f->get(y, x + 1)))
                 return true;
         }
 
-        if (0 <= y - 1 && y - 1 < f->get_columns()) {
+        if (-1 < y - 1) {
             if (f->get(y, x).move_game_obj(f->get(y - 1, x)))
                 return true;
         }
 
-        if (0 <= x - 1 && x - 1 < f->get_columns()) {
+        if (-1 < x - 1) {
             if (f->get(y, x).move_game_obj(f->get(y, x - 1)))
                 return true;
         }
@@ -65,7 +74,23 @@ public:
         Terminal_Logger* t1 = new Terminal_Logger("Hero :","\n");
         h->add_logger(t1);
 
-        f->get(0,0).put_game_obj(h);
+        int xe, ye;
+        int xh, yh;
+
+        for (int i = 0; i < f->get_columns(); i++){
+            for (int j = 0; j < f->get_rows(); j++){
+                if (typeid(f->get(i, j)) == typeid(Entrance)){
+                    f->get(i, j).put_game_obj(h);
+                    yh = i;
+                    xh = j;
+                }
+                if (typeid(f->get(i, j)) == typeid(Exit)){
+                    ye = i;
+                    xe = j;
+                }
+            }
+        }
+
         Field_View view_f(f);
 
         std::vector<Game_obj*> enemies;
@@ -114,10 +139,44 @@ public:
         f->set_obj(enemies);
         f->set_obj(items);
 
-        while (h->get_hp()>0){
+        ConsoleAdapter consoleAdapter;
+        Action act;
+
+
+        while (h->get_hp()>0 && !(xh == xe && yh == ye)){
             view_f.print_Field();
+            act = consoleAdapter.getAction();
+
+            if (act == UP) {
+                if (yh + 1 < f->get_rows()) {
+                    if (f->get(yh, xh).move_game_obj(f->get(yh + 1, xh)))
+                        yh++;
+                }
+            }
+            if (act == RIGHT) {
+                if (xh + 1 < f->get_columns()){
+                    if (f->get(yh, xh).move_game_obj(f->get(yh, xh + 1)))
+                        xh++;
+                }
+            }
+
+            if (act == DOWN) {
+                if (-1 < yh - 1) {
+                    if (f->get(yh, xh).move_game_obj(f->get(yh - 1, xh)))
+                        yh--;
+                }
+            }
+
+            if (act == LEFT) {
+                if (-1 < xh - 1) {
+                    if (f->get(yh, xh).move_game_obj(f->get(yh, xh - 1)))
+                        xh--;
+                }
+            }
+
             std::cout << "\n";
-            //move_enemies();
+
+            move_enemies();
         }
 
     }
@@ -126,11 +185,6 @@ public:
         f = other;
     }
 
-
-//    void print(){
-//        Field_View view_f(f);
-//        view_f.print_Field();
-//    }
 
 };
 
