@@ -62,6 +62,10 @@ iostream
 cells/Abstract_cell.h
 /home/master/work/etu/OOP_game/field/cells/Abstract_cell.h
 
+/home/master/work/etu/OOP_game/field/Field_Builder.cpp
+Field_Builder.h
+/home/master/work/etu/OOP_game/field/Field_Builder.h
+
 /home/master/work/etu/OOP_game/field/Field_Builder.h
 cells/Cell.h
 /home/master/work/etu/OOP_game/field/cells/Cell.h
@@ -203,6 +207,10 @@ iostream
 /home/master/work/etu/OOP_game/field/Field_Builder.h
 
 /home/master/work/etu/OOP_game/point/Point.h
+
+/home/master/work/etu/OOP_game/views/Field_View.cpp
+Field_View.h
+/home/master/work/etu/OOP_game/views/Field_View.h
 
 /home/master/work/etu/OOP_game/views/Field_View.h
 ../game_obj/Characters/Enemies/Fransis.h
